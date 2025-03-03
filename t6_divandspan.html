@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV vs SPAN - Simple Example</title>
+    <style>
+        div {
+            border: 3px solid blue;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #d0e4ff;
+        }
+        
+        span {
+            border: 3px solid red;
+            padding: 5px;
+            background-color: #ffd0d0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DIV vs SPAN Difference</h1>
+
+        <h3>DIV (Block Element):</h3>
+        <div>This is a div - it takes up the full width</div>
+        <div>Another div - always starts on a new line</div>
+
+        <h3>SPAN (Inline Element):</h3>
+        <p>
+            Normal text <span>span inside</span> more text <span>another span</span> continues on the same line.
+        </p>
+
+        <h3>Direct Comparison:</h3>
+        <div>Block div</div><div>Another block div</div>
+        <p>Inline <span>span</span> <span>another span</span> no line breaks.</p>
+    </div>
+</body>
+</html>
