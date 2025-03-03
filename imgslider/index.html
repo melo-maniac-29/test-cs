@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container for the image slider -->
+    <div class="slider-container" aria-label="Image Slider">
+        <!-- Wrapper for the slides -->
+        <div class="slider">
+            <!-- Individual slide with an image -->
+            <div class="slide"><img src="./img1.jpg" alt="Scenic view 1"></div>
+            <div class="slide"><img src="./img2.jpg" alt="Scenic view 2"></div>
+            <div class="slide"><img src="./img3.png" alt="Scenic view 3"></div>
+        </div>
+    </div>
+
+    <!-- Button to navigate to the previous slide -->
+    <button class="prev" onclick="moveSlide(-1)" aria-label="Previous slide">&#10094;</button>
+    <!-- Button to navigate to the next slide -->
+    <button class="next" onclick="moveSlide(1)" aria-label="Next slide">&#10095;</button>
+
+    <!-- Link to the external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
