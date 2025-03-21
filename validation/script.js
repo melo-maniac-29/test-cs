@@ -37,13 +37,13 @@ form.addEventListener('submit', (e) => {
 });
 
 
-This JavaScript code validates user input on a form. Here's a breakdown:
+// This JavaScript code validates user input on a form. Here's a breakdown:
 
-1. Gets references to form elements: `name`, `password`, `form`, and `error`.
-2. Adds a submit event listener to the form.
-3. Initializes an array, `messages`, to hold error messages.
-4. Checks if the name input is empty.
-5. Checks if the password is too short (less than 6 characters).
-6. Checks if the password is too long (more than 20 characters).
-7. Checks if the password is exactly "password".
-8. If there are any error messages, prevents form submission and displays the errors in the `errorElement`.
+// 1. Gets references to form elements: `name`, `password`, `form`, and `error`.
+// 2. Adds a submit event listener to the form.
+// 3. Initializes an array, `messages`, to hold error messages.
+// 4. Checks if the name input is empty.
+// 5. Checks if the password is too short (less than 6 characters).
+// 6. Checks if the password is too long (more than 20 characters).
+// 7. Checks if the password is exactly "password".
+// 8. If there are any error messages, prevents form submission and displays the errors in the `errorElement`.
