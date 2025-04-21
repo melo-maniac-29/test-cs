@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- Tells the browser this is an HTML5 document -->
+<html lang="en"> <!-- Root element with language attribute for accessibility -->
+<head>
+    <!-- Meta tags provide information about the document -->
+    <meta charset="UTF-8"> <!-- Character encoding for the document -->    
+    <!-- Title appears in browser tab -->
+    <title>HTML Structure Template</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon (website icon in browser tab) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header section typically contains logo, navigation, etc. -->
+    <header>
+        <nav>
+            <!-- Navigation menu -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Website Title</h1> <!-- Main heading of the page -->
+    </header>
+
+    <!-- Main content area -->
+    <main>
+        <!-- Article/Section elements organize content -->
+        <section id="home">
+            <h2>Welcome Section</h2> <!-- Level 2 heading -->
+            <p>This is the main content area of your website. You can add text, images, and other elements here.</p>
+            
+            <!-- Example of an image with alt text for accessibility -->
+            <img src="placeholder.jpg" alt="Description of image" width="300" height="200">
+        </section>
+
+        <section id="about">
+            <h2>About Section</h2>
+            <p>Information about your website or company goes here.</p>
+            
+            <!-- Example of a subsection with h3 heading -->
+            <article>
+                <h3>Our Story</h3>
+                <p>More detailed information can be organized into articles.</p>
+            </article>
+        </section>
+
+        <!-- Example of a form section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer typically contains copyright, contact info, links -->
+    <footer>
+        <p>&copy; 2025 Your Company Name. All Rights Reserved.</p>
+        <div class="social-media">
+            <!-- Social media links -->
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript can be placed at the end of the body for better page loading -->
+    <script src="script.js"></script>
+</body>
+</html>
